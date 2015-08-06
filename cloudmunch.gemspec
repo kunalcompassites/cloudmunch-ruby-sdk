@@ -27,9 +27,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'creek', '~> 1.0.8'
-  spec.add_dependency 'nokogiri', '~> 1.6.0'
-  spec.add_dependency 'rubyzip', '>= 1.0.0'
+  spec.add_dependency 'json'
+  spec.add_dependency 'logger'
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
 end
