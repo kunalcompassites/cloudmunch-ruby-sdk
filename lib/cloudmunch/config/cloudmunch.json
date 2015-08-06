@@ -1,0 +1,19 @@
+{
+  "build_context" : "builds",
+  "data_loader_context" : "data_loader",
+  "defect_context" : "defects",
+  "risk_context" : "risk",
+  "defect_trend_context" : "defects_trends",
+  "mvp_context": "mvp",
+  "url_context": "url",
+  "insightdata_path": "insight_data",
+  "path": "cbdata.php",
+  "risk_trend_context":"risks_trends",
+  "sprint_context" : "sprints",
+  "story_context": "stories",
+  "coverage_trend_context":"coverage_trends",
+  "defectio_trend_context":"defectio_trends",
+  "master_url": "http://vivek-dev.cloudmunch.com",
+  "username":"CI", 
+  "endpoint" : "/cbdata.php"
+}
